@@ -48,7 +48,7 @@ Returns the complete user profile
 curl --request GET --url https://person-api.sso.allizom.org/v1/profile/ad%7CMozilla-LDAP-Dev%7Ckangtest --header 'authorization: Bearer YOURBEARERTOKENHERE'
 ```
 
-*Make sure you urlencode the `user_id` parameter.*
+*Make sure you urlencode the `user_id` parameter and request one of the scopes.*
 
 #### GET `/v1/connection/{email}`
 
